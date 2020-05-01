@@ -1,0 +1,118 @@
+.banner {
+  background: url('http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png')top left/cover no-repeat;
+  background-size: cover;
+  background-position: -600px 0;
+  margin: 90px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;  
+}
+  
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  font-size: 37px;
+  margin-top: 200px;  
+} 
+
+#anakin {
+  font-size: 70px;
+}
+
+#intro {
+  font-size: 18px; 
+  margin: auto;
+}
+
+blockquote {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 45px;
+  background-color: #454745;
+  padding: 33px;
+  width: 300px;
+  margin-left: 0; 
+  
+}
+
+blockquote::before {
+  content: "”";
+  font-size: 120px;
+  transform: rotate(180deg);
+  position: absolute;
+  margin-left: -30px;
+  margin-top: -120px;
+ 
+}
+
+h2, h3, p, ul {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+
+h2, h3, h4, p {
+  padding-left: 30px;
+  padding-right: 30px; 
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 80px;
+}
+
+h2 {
+ text-transform: uppercase;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px, italic;
+  margin-top: -25px; 
+}
+
+main {
+  width: 900px;
+  margin: auto; 
+}
+
+hr {
+  border-width: 2px;
+  border-color: black;
+}
+
+.menu {
+  background-color: black;
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10; 
+}
+
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-size: 35px;
+  padding: 0px 10px;
+}
+
+.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.achievements, .experience, .training {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
