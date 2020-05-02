@@ -7,10 +7,15 @@
   justify-content: space-around;
   align-items: flex-end;  
 }
-  
+
+main {
+  width: 900px;
+  margin: auto; 
+}
+
 h1 {
   font-family: 'Abril Fatface', cursive;
-  color: black;
+  color: #222;
   font-size: 37px;
   margin-top: 200px;  
 } 
@@ -19,20 +24,14 @@ h1 {
   font-size: 70px;
 }
 
-#intro {
-  font-size: 18px; 
-  margin: auto;
-}
-
 blockquote {
   font-family: 'Abril Fatface', cursive;
-  color: blanchedalmond;
+  color: white;
   font-size: 45px;
-  background-color: slategray;
+  background-color: #454745;
   padding: 33px;
   width: 300px;
   margin-left: 0; 
-  
 }
 
 blockquote::before {
@@ -73,16 +72,6 @@ h4 {
   margin-top: -25px; 
 }
 
-main {
-  width: 900px;
-  margin: auto; 
-}
-
-body {
-background-color: silver;
-
-}
-
 hr {
   border-width: 2px;
   border-color: black;
@@ -116,6 +105,12 @@ a {
   align-items: center;  
 }
 
+#intro {
+  font-size: 18px; 
+  margin: auto;
+  flex-basis: 75%;
+}
+
 .achievements, .experience, .training {
   padding-top: 80px;
   display: flex;
@@ -123,6 +118,6 @@ a {
   align-items: center;
 }
 
-.interests {
-  margin-left: 300px; 
+.cv {
+  flex-basis: 50%
 }
