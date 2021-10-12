@@ -2,15 +2,14 @@
 body {
     margin: 0;
     background-image: url(assets/hatterkep.png);
+    background-repeat: repeat;
 }
 
-/*header {
-    position: fixed;
-}
-*/
+
 main {
     font-family: 'Noto Sans Mono', monospace;
-    margin: auto 10%;
+    margin: 10% auto;
+    width: 80%;
     text-align: justify;
     line-height: 1.8em;
 }
@@ -37,6 +36,9 @@ h3 {
     background-color: #333333;
     display: flex;
     justify-content: flex-end;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .navbar ul {
