@@ -1,0 +1,67 @@
+
+body {
+    margin: 0;
+    background-image: url(assets/hatterkep.png);
+}
+
+/*header {
+    position: fixed;
+}
+*/
+main {
+    font-family: 'Noto Sans Mono', monospace;
+    margin: auto 10%;
+    text-align: justify;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 900;
+}
+
+h3 {
+    color: #ff0099;
+    font-size: 1.2em;
+}
+
+.navbar {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    background-color: #333333;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin-right: 8%;
+}
+
+a {
+    color: #ff0099;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#logo {
+    position: absolute;
+    left: 10%;
+    margin: 10px 10px 0 0;
+}
+
+pre {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+dt {
+    font-weight: 900;
+    font-size: larger;
+    padding: 1%;
+}
