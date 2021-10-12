@@ -5,6 +5,37 @@ body {
     background-repeat: repeat;
 }
 
+.navbar {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    background-color: #333333;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-right: 8%;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: #ff0099;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#logo {
+    position: absolute;
+    left: 10%;
+    margin: 10px 10px 0 0;
+}
 
 main {
     font-family: 'Noto Sans Mono', monospace;
@@ -30,35 +61,6 @@ h3 {
     font-size: 1.2em;
 }
 
-.navbar {
-    font-family: 'Dosis', sans-serif;
-    text-transform: uppercase;
-    background-color: #333333;
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    position: fixed;
-    top: 0;
-}
-
-.navbar ul {
-    list-style-type: none;
-    display: inline-flex;
-    margin-right: 8%;
-}
-
-a {
-    color: #ff0099;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#logo {
-    position: absolute;
-    left: 10%;
-    margin: 10px 10px 0 0;
-}
-
 pre {
     text-align: center;
     padding-top: 3%;
@@ -66,7 +68,7 @@ pre {
 }
 
 dt {
-    font-weight: 900;
+    font-weight: 800;
     font-size: larger;
     padding: 1%;
 }
