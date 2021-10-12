@@ -12,15 +12,18 @@ main {
     font-family: 'Noto Sans Mono', monospace;
     margin: auto 10%;
     text-align: justify;
+    line-height: 1.8em;
 }
 
 h1 {
     font-weight: 900;
+    font-size: 32px;
 }
 
 h2 {
     text-align: center;
     font-weight: 900;
+    font-size: 26px;
 }
 
 h3 {
