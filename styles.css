@@ -39,7 +39,7 @@ a {
 }
 
 main {
-    font-family: 'Noto Sans Mono', monospace;
+    font-family: courier;
     margin: 10% auto;
     width: 80%;
     text-align: justify;
@@ -62,6 +62,10 @@ h3 {
     font-size: 1.2em;
 }
 
+h1, h2, h3 {
+    font-family: 'Noto Sans Mono', monospace;
+}
+
 pre {
     text-align: center;
     padding-top: 3%;
@@ -69,6 +73,7 @@ pre {
 }
 
 dt {
+    font-family: 'Noto Sans Mono', monospace;
     font-weight: 800;
     font-size: larger;
     padding: 1%;
