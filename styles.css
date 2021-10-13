@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-image: url(assets/hatterkep.png);
     background-repeat: repeat;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .navbar {
@@ -39,7 +40,6 @@ a {
 }
 
 main {
-    font-family: courier;
     margin: 10% auto;
     width: 80%;
     text-align: justify;
@@ -62,7 +62,7 @@ h3 {
     font-size: 1.2em;
 }
 
-h1, h2, h3 {
+.personal-info {
     font-family: 'Noto Sans Mono', monospace;
 }
 
