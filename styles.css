@@ -19,6 +19,7 @@ body {
 .navbar ul {
     list-style-type: none;
     margin-right: 8%;
+    margin-left: 2%;
 }
 
 li {
